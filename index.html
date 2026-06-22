@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============================================================
+     FP ELITE community landing page
+     SETUP before going live:
+       1. Domain is set to community.fpsales.com.au.
+       2. Replace the placeholder testimonials (marked TESTIMONIALS) with real ones.
+       3. Add a social-share image at /og-image.jpg (1200x630) for link previews.
+     PRICING LINKS:
+       All three plan buttons currently point to the same Circle paywall
+       (fp-pro-subscription). If each plan has its own Circle checkout URL,
+       swap the href on each card where marked PLAN LINK.
+     ============================================================ -->
+
+<title>FP Elite | Australia's Sales Community to Get Better at Sales</title>
+<meta name="description" content="Start a free 7-day trial of the most affordable sales community in Australia. Live coaching calls a week, an in-depth bonus course, real feedback on your calls, and a private network of closers. Then $97/month, cancel anytime.">
+<meta name="theme-color" content="#28AAE2">
+<link rel="canonical" href="https://community.fpsales.com.au/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="FP Elite | Australia's Sales Community">
+<meta property="og:description" content="Live calls a week, a bonus sales course, real feedback, and a private community of Australian closers. Start free for 7 days, then $97/month.">
+<meta property="og:url" content="https://community.fpsales.com.au/">
+<meta property="og:image" content="https://community.fpsales.com.au/og-image.jpg">
+<meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FP Elite | Australia's Sales Community">
+<meta name="twitter:description" content="Get better at sales in a room full of people doing the same. Try it free for 7 days, then $97/month.">
+<meta name="twitter:image" content="https://community.fpsales.com.au/og-image.jpg">
+
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --paper:#ffffff;
+  --mist:#f4f8fb;
+  --ink:#0b1118;
+  --ink-soft:#46566a;
+  --brand:#28aae2;        /* logo blue */
+  --brand-deep:#0e6fb0;   /* deeper blue for contrast/hover */
+  --brand-ink:#0a3a57;    /* dark navy-blue */
+  --brand-tint:#e6f4fc;   /* pale blue surface */
+  --line:#e2eaf0;
+  --radius:16px;
+  --shadow:0 1px 2px rgba(11,17,24,.04),0 12px 32px rgba(11,17,24,.06);
+  --maxw:1100px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+h1,h2,h3{font-family:'Montserrat',system-ui,sans-serif;line-height:1.12;letter-spacing:-.02em;margin:0 0 .5em;font-weight:800;color:var(--ink)}
+h1{font-size:clamp(2.1rem,6vw,3.6rem)}
+h2{font-size:clamp(1.7rem,4.2vw,2.6rem)}
+h3{font-size:1.15rem;font-weight:700;letter-spacing:-.01em}
+p{margin:0 0 1rem}
+a{color:var(--brand-deep);text-decoration:none}
+img{max-width:100%;display:block}
+.container{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 22px}
+.section{padding:84px 0}
+.section--mist{background:var(--mist)}
+.lead{font-size:1.18rem;color:var(--ink-soft);max-width:62ch}
+.center{text-align:center}
+.center .lead{margin-left:auto;margin-right:auto}
+[id]{scroll-margin-top:92px}
+
+/* Eyebrow with short bar marker (logo blue) */
+.eyebrow{display:inline-flex;align-items:center;gap:11px;font-family:'Montserrat',sans-serif;
+  font-weight:700;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--brand);margin-bottom:16px}
+.eyebrow::before{content:"";width:22px;height:3px;background:var(--brand);border-radius:2px;display:inline-block}
+
+/* Header */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);
+  backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.site-header.scrolled{border-color:var(--line);box-shadow:0 6px 20px rgba(11,17,24,.05)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:18px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand img{height:34px;width:auto}
+.brand b{font-family:'Montserrat',sans-serif;font-weight:800;letter-spacing:-.01em;font-size:1.1rem;color:var(--ink)}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{color:var(--ink-soft);font-weight:500;font-size:.95rem}
+.nav-links a:hover{color:var(--ink)}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:700;
+  font-size:1rem;padding:15px 26px;border-radius:999px;border:0;cursor:pointer;transition:transform .12s,box-shadow .2s,background .2s;min-height:48px}
+.btn--primary{background:var(--brand);color:#fff;box-shadow:0 8px 22px rgba(40,170,226,.35)}
+.btn--primary:hover{background:var(--brand-deep);transform:translateY(-1px);box-shadow:0 12px 28px rgba(40,170,226,.42)}
+.btn--sm{padding:11px 20px;font-size:.92rem;min-height:42px}
+.btn-note{font-size:.88rem;color:var(--ink-soft);margin-top:12px}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;padding:104px 0 84px;text-align:center}
+.hero-glow{position:absolute;top:-260px;left:50%;transform:translateX(-50%);width:760px;height:520px;
+  background:radial-gradient(closest-side,rgba(40,170,226,.14),rgba(40,170,226,0));pointer-events:none}
+.hero .container{position:relative}
+.hero h1{margin-bottom:.35em}
+.hero h1 span{color:var(--brand)}
+.hero .lead{margin:0 auto 30px}
+.hero-cta{display:flex;flex-direction:column;align-items:center;gap:4px}
+
+/* Trust strip */
+.trust{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 30px;margin-top:42px;padding-top:30px;border-top:1px solid var(--line)}
+.trust span{display:inline-flex;align-items:center;gap:9px;font-weight:600;font-size:.96rem;color:var(--ink)}
+.trust svg{color:var(--brand);flex:none}
+/* Avatar stack (social proof) */
+.avatars{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 14px;margin-top:24px}
+.avatar-stack{display:flex}
+.avatar-stack .av{position:relative;width:40px;height:40px;border-radius:50%;border:2.5px solid #fff;margin-left:-12px;display:flex;align-items:center;justify-content:center;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.8rem;color:#fff;box-shadow:0 1px 4px rgba(11,17,24,.18);overflow:hidden}
+.avatar-stack .av:first-child{margin-left:0}
+.avatar-stack .av img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.avatars .proof-text{font-size:.92rem;color:var(--ink-soft);font-weight:500}
+.avatars .proof-text b{color:var(--ink);font-weight:700}
+
+.prose{max-width:64ch}
+
+/* Feature rows: two columns of slim horizontal items */
+.features{display:grid;gap:14px 22px;grid-template-columns:repeat(2,1fr);margin-top:44px}
+.feat{display:flex;gap:16px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px 22px;transition:border-color .2s,box-shadow .2s}
+.feat:hover{border-color:#cfe3f1;box-shadow:var(--shadow)}
+.feat .ico{width:42px;height:42px;flex:none;border-radius:11px;background:var(--brand-tint);color:var(--brand-deep);display:flex;align-items:center;justify-content:center}
+.feat h3{margin:0 0 4px}
+.feat p{margin:0;color:var(--ink-soft);font-size:.96rem;line-height:1.55}
+
+/* Recruit feature */
+.feature{background:linear-gradient(180deg,#0a3a57,#0b2638);color:#fff;border-radius:24px;padding:54px 44px}
+.feature .eyebrow{color:#7fd0f3}
+.feature .eyebrow::before{background:#7fd0f3}
+.feature h2{color:#fff}
+.feature p{color:#cfe1ee;max-width:64ch}
+.feature .disclaim{font-size:.95rem;color:#9fc2d8}
+
+/* Who it's for */
+.checks{list-style:none;padding:0;margin:34px 0 0;display:grid;gap:16px;grid-template-columns:repeat(2,1fr)}
+.checks li{display:flex;gap:13px;align-items:flex-start;font-size:1.02rem;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.checks svg{color:var(--brand);flex:none;margin-top:3px}
+.notfor{margin-top:26px;color:var(--ink-soft);font-size:.98rem}
+
+/* Pricing */
+.plans{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:44px;align-items:stretch}
+.plan{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:32px 28px;display:flex;flex-direction:column;text-align:center;position:relative}
+.plan--best{border:2px solid var(--brand);box-shadow:var(--shadow)}
+.plan .badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--brand);color:#fff;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:6px 15px;border-radius:999px}
+.plan .pname{font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.05rem;color:var(--ink-soft);margin-bottom:10px}
+.plan .amt{font-family:'Montserrat',sans-serif;font-weight:800;font-size:2.8rem;line-height:1;color:var(--ink)}
+.plan .amt sup{font-size:1.2rem;top:-.9em;color:var(--ink-soft);font-weight:700}
+.plan .amt .per{font-size:1.05rem;color:var(--ink-soft);font-weight:600;letter-spacing:-.01em}
+.plan .cycle{color:var(--ink-soft);font-size:.95rem;margin:8px 0 4px}
+.plan .save{display:inline-block;background:var(--brand-tint);color:var(--brand-deep);font-weight:600;font-size:.86rem;padding:4px 12px;border-radius:999px;margin:6px 0 22px}
+.plan .save.placeholder{visibility:hidden}
+.plan .btn{width:100%;margin-top:auto}
+
+/* Everything included */
+.included{max-width:720px;margin:40px auto 0;background:var(--mist);border:1px solid var(--line);border-radius:20px;padding:30px 34px}
+.included h3{text-align:center;margin-bottom:18px}
+.inc-list{list-style:none;padding:0;margin:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.inc-list li{display:flex;gap:11px;align-items:flex-start;font-size:1rem}
+.inc-list svg{color:var(--brand);flex:none;margin-top:3px}
+
+/* Testimonials (clean uniform grid) */
+.quotes{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-top:44px}
+.quote{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;display:flex;flex-direction:column}
+.quote .stars{color:var(--brand);letter-spacing:2px;font-size:.95rem;margin-bottom:13px}
+.quote p{font-size:1rem;color:var(--ink);margin:0 0 20px;flex:1}
+.quote .who{display:flex;align-items:center;gap:11px}
+.quote .av{width:40px;height:40px;border-radius:50%;background:var(--brand-tint);color:var(--brand-deep);display:flex;align-items:center;justify-content:center;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.9rem;flex:none}
+.quote .who b{font-size:.95rem;display:block;line-height:1.2}
+.quote .who small{color:var(--ink-soft);font-size:.85rem}
+
+/* FAQ */
+.faq{max-width:760px;margin:38px auto 0}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;padding:22px 40px 22px 0;position:relative;font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.08rem;color:var(--ink)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:4px;top:18px;font-size:1.5rem;color:var(--brand);font-family:'Inter',sans-serif;font-weight:400;transition:transform .2s}
+.faq details[open] summary::after{content:"\2212"}
+.faq .ans{padding:0 0 22px;color:var(--ink-soft);max-width:68ch}
+
+/* Final CTA */
+.final{text-align:center}
+.final .btn{margin-top:8px}
+
+/* Footer (light, clean) */
+.site-footer{background:var(--paper);border-top:1px solid var(--line);padding:48px 0 36px;color:var(--ink-soft);font-size:.92rem}
+.foot-top{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:center}
+.site-footer .brand img{height:32px}
+.site-footer .brand b{font-family:'Montserrat',sans-serif;font-weight:800;font-size:1.1rem;color:var(--ink)}
+.foot-blurb{max-width:46ch;margin:14px 0 0}
+.foot-contact{margin:10px 0 0}
+.foot-contact a{font-weight:600}
+.foot-bottom{margin-top:28px;padding-top:20px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between;font-size:.85rem}
+
+/* Sticky mobile join bar */
+.mobile-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:11px 16px calc(11px + env(safe-area-inset-bottom));align-items:center;justify-content:space-between;gap:12px}
+.mobile-bar .mb-price{font-family:'Montserrat',sans-serif;font-weight:800;font-size:1.05rem;color:var(--ink)}
+.mobile-bar .mb-price small{font-weight:500;color:var(--ink-soft);font-size:.8rem}
+.mobile-bar .btn{flex:1;max-width:220px}
+
+/* Storytelling (skimmable) */
+.skim{max-width:58ch;margin-top:8px}
+.skim p{font-size:1.16rem;line-height:1.5;color:var(--ink);margin:0 0 .72rem;font-weight:500}
+.skim .kick{color:var(--brand-deep);font-weight:700}
+/* Problem icons */
+.problems{display:grid;gap:16px;grid-template-columns:repeat(3,1fr);margin-top:40px}
+.problem{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:26px 22px;text-align:center}
+.problem .ico{width:48px;height:48px;border-radius:50%;background:var(--brand-tint);color:var(--brand-deep);display:flex;align-items:center;justify-content:center;margin:0 auto 14px}
+.problem p{margin:0;color:var(--ink);font-size:1rem;line-height:1.5}
+/* Inline CTA row */
+.cta-row{display:flex;flex-direction:column;align-items:center;gap:4px;margin-top:42px}
+/* Carousel arrows */
+.carousel-wrap{position:relative}
+.car-arrow{display:none}
+/* Founders */
+.founders{display:grid;gap:30px;grid-template-columns:repeat(2,1fr);margin-top:8px}
+.founder{display:flex;flex-direction:column}
+.portrait{aspect-ratio:4/3;border-radius:16px;background:linear-gradient(150deg,var(--brand),var(--brand-ink));display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Montserrat',sans-serif;font-weight:800;font-size:4.5rem;overflow:hidden}
+.portrait img{width:100%;height:100%;object-fit:cover}
+.founder .fname{font-family:'Montserrat',sans-serif;font-weight:800;font-size:1.35rem;margin:18px 0 2px}
+.founder .frole{color:var(--brand-deep);font-weight:600;font-size:.95rem;margin-bottom:14px}
+.founder p{color:var(--ink-soft);margin:0;font-size:1rem;line-height:1.65}
+.together{background:var(--brand-tint);border:1px solid #cfe7f6;border-radius:18px;padding:28px 30px;margin-top:30px}
+.together p{margin:0;font-size:1.08rem;line-height:1.7;color:var(--brand-ink)}
+/* Trial line */
+.trial-line{display:inline-block;background:var(--brand-tint);color:var(--brand-deep);font-weight:600;padding:9px 20px;border-radius:999px;margin:4px 0 0;font-size:.96rem}
+
+/* Reveal (progressive enhancement) */
+body.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+body.js .reveal.in{opacity:1;transform:none}
+
+a:focus-visible,button:focus-visible,summary:focus-visible,.btn:focus-visible{outline:3px solid var(--brand);outline-offset:3px;border-radius:6px}
+
+@media (max-width:820px){
+  .nav-links{display:none}
+  .section{padding:48px 0}
+  .hero{padding:54px 0 42px}
+  .feature{padding:32px 22px}
+  .founders{grid-template-columns:1fr;gap:22px}
+  .mobile-bar{display:flex}
+  body{padding-bottom:74px}
+  h2{font-size:1.62rem}
+  .lead{font-size:1.06rem}
+
+  /* swipeable carousels for the box sections */
+  .problems,.features,.quotes{
+    display:flex;grid-template-columns:none;gap:13px;overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none;
+  }
+  .problems::-webkit-scrollbar,.features::-webkit-scrollbar,.quotes::-webkit-scrollbar{display:none}
+  /* problems + features: left-aligned */
+  .problems,.features{scroll-padding-left:22px;margin:28px -22px 0;padding:2px 22px 12px}
+  .problems>*,.features>*{flex:0 0 80%;scroll-snap-align:start;margin-top:0}
+  /* testimonials: each card centered on screen */
+  .quotes{margin:28px -22px 0;padding:2px 0 12px}
+  .quotes>*{flex:0 0 84vw;scroll-snap-align:center;margin-top:0}
+  .quotes::before,.quotes::after{content:"";flex:0 0 8vw}
+
+  /* arrows so it's obvious the boxes scroll */
+  .carousel-wrap{margin-top:28px}
+  .carousel-wrap>.problems,.carousel-wrap>.features,.carousel-wrap>.quotes{margin-top:0}
+  .car-arrow{display:flex;align-items:center;justify-content:center;position:absolute;top:50%;transform:translateY(-50%);
+    z-index:5;width:38px;height:38px;padding:0;border-radius:50%;border:1px solid var(--line);
+    background:rgba(255,255,255,.95);color:var(--brand-deep);box-shadow:0 2px 10px rgba(11,17,24,.16);
+    cursor:pointer;transition:opacity .2s}
+  .car-prev{left:4px}
+  .car-next{right:4px}
+  .car-arrow svg{width:18px;height:18px}
+  .car-arrow.hide{opacity:0;pointer-events:none}
+
+  /* smaller boxes on mobile */
+  .feat{padding:16px 16px}
+  .feat .ico{width:38px;height:38px;border-radius:10px}
+  .feat h3{font-size:1rem;margin-bottom:3px}
+  .feat p{font-size:.9rem;line-height:1.5}
+  .problem{padding:22px 16px}
+  .problem .ico{width:42px;height:42px;margin-bottom:10px}
+  .problem p{font-size:.94rem}
+  .quote{padding:20px 18px}
+  .quote p{font-size:.95rem}
+  .plan{padding:26px 22px}
+
+  /* read more on long text */
+  .clamped{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;overflow:hidden}
+  .clamped.open{-webkit-line-clamp:unset;display:block;overflow:visible}
+  .readmore-btn{display:inline-block;margin-top:9px;background:none;border:0;padding:0;color:var(--brand-deep);font-family:'Montserrat',sans-serif;font-weight:700;font-size:.9rem;cursor:pointer}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  body.js .reveal{opacity:1;transform:none;transition:none}
+  .btn,.card{transition:none}
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"FP Elite",
+  "url":"https://community.fpsales.com.au/",
+  "description":"Australia's most affordable community for salespeople who want to get better. Live coaching calls, a bonus in-depth course, and a private network of closers.",
+  "areaServed":"AU"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"How does the free trial work?","acceptedAnswer":{"@type":"Answer","text":"You get full access to absolutely everything for 7 days, including the weekly live calls, all the recordings, the full course and the entire community. There's no charge to start, and at the end of the seven days you simply decide whether to keep it. If it's not for you, cancel before the trial ends and you pay nothing."}},
+    {"@type":"Question","name":"Is it worth $97 a month?","acceptedAnswer":{"@type":"Answer","text":"We're not doing this for the money. We're building the community we wish we'd had in sales: a genuinely strong community in Australia that doesn't cost thousands of dollars like most sales communities and courses. We're the most affordable sales community on the market, and we don't run sales calls to pressure anyone into joining. We just open the doors to people who want to connect with similar minds, at a very low price. It's a value-packed community that includes an in-depth bonus course."}},
+    {"@type":"Question","name":"Do I have to do the course?","acceptedAnswer":{"@type":"Answer","text":"You definitely don't have to, but we'd recommend it because there's so much value in there. You're guaranteed to walk away with more knowledge than you started with, and it's simply part of your membership. You also never pay extra for the live calls. We post them in the chat ahead of time so you always know when they're on, and if you miss one, we post all the recordings too."}},
+    {"@type":"Question","name":"Do I need sales experience to join?","acceptedAnswer":{"@type":"Answer","text":"No. Anyone can join. This community is made for absolutely anyone and can help people wherever they're starting from. If you don't have sales experience yet, run through the course and you'll know exactly what you're doing."}},
+    {"@type":"Question","name":"Is this only for people in Australia?","acceptedAnswer":{"@type":"Answer","text":"Yes, 100%. This community is for Australian salespeople only."}},
+    {"@type":"Question","name":"Will I get hired by FP?","acceptedAnswer":{"@type":"Answer","text":"It's not guaranteed, but we're always looking for new salespeople and are actively looking in the community for people to take on board. There's a big chance you'd be working closely with Finn and Pietro and talking with us a lot. And if it's not with FP directly, we also have a chat for other sales offers."}},
+    {"@type":"Question","name":"Can I cancel anytime?","acceptedAnswer":{"@type":"Answer","text":"Yes, you can cancel anytime."}}
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<header class="site-header" id="header">
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="FP Elite home">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAACgCAYAAAColDb4AAAyk0lEQVR42u19d3xlVbX/d+19bk1PJpNMhyEMOINSQhPBZAYVnoI9sTws+HBGUfCJ5Wd7JNcG9ga8B4pPsOc+BQQRUZlERUAntGEGpjI9U5JM+m3n7PX7Y58zOXO5NW1S7vp8zifJvTfnnrPPd6+91nevAhSkIAUpSEGmh1BhCPIaJ8oyZsnvcZrPses9LgxvAciTDViygaYmCXAEQLi+h1MAvSAFIOd0/+QClJkBQGUAFgIoAlAJoMr+vdR+r8J+rQrACICjAAYBDAA4BGA/gF4AwwAiALrsz6QTw/6pCsAuADmbFjRTvF8DYB6AegBrAJQAKAewGMCpEzhmOwDstcE8DODvAP4FoMcGffK1ySRgF2SOAtkBgpWk9ZYAaARwvq1xX2Vr1XSicrCBs421yPA5C8ATAF4A8E8ADwM4aGtx9/8L+7MFUM8BIKcCrxfAqwFcah9nu5bxZMCqJBNETOC1JZsMIo0zadra+48A2gH8CcBQlnssyCyZnDIJEBLAZQBuBrDTBSDnsAAkbNCoFO9P9WHa12OleO8IgB8BeLdto7u1tCz4PTNfhEs7ObIGwFcBbE8BiLgNlOkA3EyHck205Gvdb0/OC1KsRKIAiZkHYLdpUAHgagAbUoAi4TIZeIYeKoW2TgD4m62lS5J8gAKgZ4AJ4QbwYgD/ZduTqR76TAZvNlC7X9sC4EYAdQVAzywALwTwdWhe1q2hZit40wHaxCgPzgD6AHwXwLIkQBds6GkgbgBX2prncJKTZM0R8KY7rCRA9wP4DoClacaxIFNsBzuaxA/gPwHsSQKwwvR32CyX5nQf1iSsICoFoFuhN3eSqbuCTBGV5sh7AGyaZgBWLrrMTeGpCTivcoE/McYVJxnQOwF8yGUzzwrKjqa5FnY2JM4C8DUAr7P/tpK09FQJ4/idvVw2SRT0NvQA9EbGEHQsRhSAx15hAjYnPB96ezyX60i1mZLLtTuK4R8AboDeRUwe7wKQJ9AWNu2H/FkAn7Z/tzDxO2y5AobT2JZ9AJ62f44AeBbA8wD2QQcNJaC3l2M2dx3H8XEUZAPaA6DYBrQBwAe9Vb4EwOk2C1Fq/6xLcR2W63yZwk3dgE4AuAmaa4+5xr0gEzCxHJC+HDqQxm1GTPUGRPJ7PbYmuw/AWgCvTGIF8r3XsSiSCgBnQu9U3gHgr9BRdak480x2t9tEeRTAK/LQ7gXJYko4cr29FLs3MU4EeC0AzwC4BcDlAE7JYssb9uHsrLkPyuEQKQ73edOtRKcAuALA7faKkGxHp9vFdPPQAwDWFRzB8YkzaB4A/zOFWjjVhkLcBu+nbY2bjseWLsBOpQYj13en24q+yGZ2/mmbN6k0NacZ57tdzEaBphsDN7wAwPop0sLJXKtpsyGfgw7nTAec6bo7JlzXmDypVrpAHUsaAyvNpH4BwDkFMOcP4rPsweM0tulEAtj98HoBfB/AhUkgdYN3pq5wqUBdD+BLALZloOdMlz/wFtdzKtjNWUB8pT1okwniZAA/D+CTNt2VDIDZFpMgUmjVAID3A+hIA2j3WN2QB9U455gJ6XLqJtMeTjYhNgD4oE1zzWbw5gpqAR3q+iBeus3vHrtvuzRyAcxJIP5CEmMwGbttzt/PQYd2BpJWBCo8h2NyuU3luZ1CdyDSL1zjJwog1nIzJmeLORnAuwBch+NjdAtZFMc/E5EEzGYAG5MA7Zh8D0JvysxZMLtB/P1JsofdPOkh6Njk6gKA83IQnfHxQm/4vOga36j98x/QmzJzDsypQByfYBC7J8WPcHzIYgHAYzc5KqBjXOJJYP7rXNTMkwliNxuxEaNBRQUATyygzwfwSJLSeBhAEGPfap+RIP7uJIDYbQvf4rKDRcGznjRAfyJp9bvHNkNmtdJwaJ5PTbBN7N6B2g7gDSkmTkEmz35usFkg53ncNptZIAfEb5tgdsJN1f0WQG3BjDghK2wJgJ+6nsvnZqMicZb1s6DTa5J31cZjDzu/h1JMmoJMLZgB4GMuE+89swnMTiTYfIym5U/Ejp1jSgwBeGfBFp4WtrMz9m+ApjsZo4Vi5Gy4OQLw0CSAeA9GI9MKQSzT43l77N9PAdAJoBu6xO6MjstwlvibJtC5c86xAaOZGAVTYnqaGmXQQUiPJa3OM/JmXj+Bzp0D4j9jtMxrgZWY3n6RgKbkvjITn5fbLt6NiQkCckD8c+ik03wHhQpH1iTUyQIzAHwLmqbDTDIxHID9eoLsYgfE308zSAWZ3nazM3Euw/Flbyf9i8cLYgu6CuTPbRB6xngud5r6D6Bjlcn1Xq7itbW4KuAKAno3NTrFYHaeVzGOL0o+LYHsaMkKAE9C11/gcWhP03bkHBAL5NcExqnJ8EHoWhjxOe4YWvb93wed5TGVNSsIU9wSwhjnxVq2Yb/U/l2OE8R3jxHE7kk5D8DJBWV8TBZM0Oqb7+qKmQBkx6S42NaA4wGxozn+CB0DOxYQu8XJwB6PmTMbRNng/Zfr71krxjhmnADwDYyvZpgzAZ4G8C7odHUxzhmdXOhkLtvHgA6EPyFa8kTcbL7aWEHvrV+I0YKCY9EYArpG2huhC/3JgpM2oUt7L3SEYAHIKbSdgo5++rI9ODTGgXYCgd4H3TjRQKHF1kQ6egwdKtBtK4gCkJO0Mdu27GKXVh2LNpbQscqPoFAFcjKeKwH4VWEoUmtjgq4Ltgdj38FzNkzuck2OiRDHsXMC+Sc6L3CmHE54wAaMxmnTXJi5+WrjddCc8Vi0sePcbcHxNFtBJtY2JgCfcfkvXADy6MBY0Jmz68ZoGzuDOQIdU9w/F2ihE2AbS+jysn/GKE2KApBHP8fQxTtOHqc2boWm24wCiCdUnE2lp6Hr2onC+Ka2jf3QKfdjsY0du/hvSN0rumAjT0yg1VaM1vSYUxy6yOMzlwI4Ywza2DFDBlxmCQq28YSZEsrWxJ3QdT32zEVtLHIEIgP4wDgGW0BXdNw8l+y2SRJ3zz6nkuj3AFwCXetuTm4qGTkAXUHnZF2K/KPbHL74BQDfnKGDzNPsmt105V8BtABodz2vOakksgHZsWPfAp2TZSK/+AwH+J8FMIyZucOUqgTriZS9AJ6CrnF3f5IzPmedu2ygdGb3e8fgQDhL38PQMbEzzaRwbPu9AA6ewOs4Yq9oz9nXshE6/d7tiBfYiRzs57OhMwzybUvrtPs6f4q86IlmLRwm4D+n4bORKFRXylkjO4P0b9BdOPOJ73W08S+huwnNZAfP53KqpoPm44KznB+QHbbh7SmcjFw0Rgy6tNWUp71MInAKAJphQHa0z8nQ3DHyWMYch/AX0G2wCnTb5M81QhtEQ3U7dRxpZDRN0srRCkIr0BTWWDhc3U4dR44wmpoUiHg6A/xjSN0dNFO1TGXbp6dPkW082Tbyp8ewIk0eg9LCoqmNJdpYoq1Ngnl67OAxE9ra7OtiiZYWcSIAmyzOjL4wT4fCcmnjFwraeDyAbSGsWkUA0IQmoAkIC2EhRBxO+nDJeZdW1V7zjbOFPzA/3tt1urd6yevIX1QOK8GgiXAICQxWanhgnxrq32mZiX2G19cla5b0WYe6ug/+8hubh4iOJD/rpjaWYYSBTZsYoZCa3AFL/RpD88Z7oCPecol2YxeYL4KOh51Kashja9FPAfg6xp986phI/88+3+RMSmZCqx7bBrQLNDaivREWpV6qPcu/9afTxYJltYm9207x1iy7XBaXL1bDg/NkcekyESwDlAk2TTArENHEeScEgAQgBIgEQASQgDXQAxUb3ku+om7ERg7Gj+x/0FtVs+noQ7/YfPhXNzk0IRrWs9HRDoUQjSexOC8gO/bxOS4w5sNUdABoPAFO3nQHMoEZaG0lrFpF9UeXi+Vr61WYKOU5l3zqRwuLzmpcENmxcYmsWbTGU17zMjUyWEUe3ypPxXwvK8uZCGBlgeNRxcwKBKIJ0sMpboEZDDCx82iJSJLXTyTkKNiVBbO/Zy8DT1oDvXeb+7c/tuer7+my/wH4tZJoJjWR+KA05oYJHW7ZgtxT/S37fP8OXT5LYmrTl6YRkJl00GtY1L9muSheUc8da4QJfulzq3ntVUWl7/+vmvj2DTWyYsklnuqlZ6vYUBWRPNMor54PVoA0NEBYgWMRKNO0IJyHR1qr0+grU2wbMwgMaHA7Szd5A5KkARDB7O8+yGbiD/He/T/c/fHXPnbsf9vaJJqbrckCsvPAfmaDMpdtaScibi+Al0FvR88VjUxoaaGGxkYBNKKjEVY6D37FzzfMG3762Qpvde0F3sWnX2DFhqqIcaYsqVhJJEAeL8jjA1hBxaJgM6aOwcV5WAyhbYbpTqSw0qY1E3n9Qnj9UJFhWLHIejXU/7Pt6+rvBmCC2Z6P42M9KI19HIDeyMg1bNN56N+3mY4T4eRNPpCZFcIQDdWgxkaoEFFK+7/uew/6hp5+qlQuXnZG8PTzXikSZrUVj54py6ouAMMnPF4pgroJFcejULGIhihBsWLW5gELkJgdO3esmElYxCxlsJSYLZjDg09YAz0371h37r1aO7NEM40ZM0YaINdilD/ONWY5ZpsUs0uEIFiWQGMj2VrD6rAdAY3aOl/N666tKzn3sgtIiFo10rdSVNSsLr98VTFbZqlRXg0ICZmIgWMRMDPYMtkc6LXsAbe9JxAY8piypVm0+0yCCDBABDMyYBGDjKKSC2Sg+J5Tf/L8A7G9G6/f00wvYv16A6tXmxMBZEfm50m5SejNjycw24JYlIpCa14VbHhfbe1VHz3H8JcvtHq7VsiKmkuFP1ijEtFyo6SyiHwBwFwAFYsCrAAhYQ72mQADBCIcs2OJiOZkgUUCSRCgIkMKJOCpXnCFCAbPO+mbf1i7a/Xq34FZjNrc49PIwGhTk3yyQX7jAvXM546JBJgROP28Ny1rbbsYoNNUPFou/MElsrgcRnklOBEHKwXh8bOKjkQRHWIwBAPCxqt2/LThwAxYM3u3ngBiIvd9jb6R3xJCQgCANdRvCq+/JnDymfed+uNnvriNqKWFWYTAednNRgoTwQJwbh5AJtsevX9WaQ4SgtlC4LRzV/uWngRrJA6wtmnZSmjd4g1A2AoWRP5ZrUptxoVZAUrpFYf135yIMTObRBDQFj7lPs5kcDyqIAS8NctuXHH35ooQ0fV6M4VVrprZSME+ALpAcz5mRSeAZzGLcsVYE7VyeOPf28zuoz+LHtwZIOFlQSCQmhPhk6wsUvGEB5bpU1bCzwoVwuddIoNldSJYUgvL9LKVKBH+ovlGaZXBsRGwmYCyTBNgx5SiXLQGlGJzeMD01iy7bsVPtxSHm+kDTW0sw83IiW82kjSrA8zqDPTcS+4XupNPArOp9BVrFRTbufHRTW+svB8FSYmfwGveOX/BWz92pjzafQb5A+8QgWCdESwtYzBUZBislElgmVVLExEBhtnfnfDMX3L1qT/ZNBJupo82rF9vdOTgAFKSWaFsxuIp+2e2rWnn/TUA1p9g+3hy6DchPtvwl79888ht7aJ6ZeOcy8SYv6rxmDYMA0ATGK0AWsGpbNjaa29ZVnLha6+ElbhCFJWtNopKvSo2AhWPWyQoh401BphMWVRqRHZvbdn5kfO/mAs1lwrIqzDaNDsXEB+Bbtd7ACc29nhmxlrMdBICDLRBNDUBydvti1t+c4ZvyckfMAKlVxvl1eXWcL8CM2y6MfNqaBgWGDK2feNlL37m8j9pNoPSKpJUJ/S6gJrNPgZ0IekDmAOlSwuSSpkRo5msYyBmpob1bICZ9oXe9tyOa865YXjj+vPih/f8THj9QviCglmpbGYGzIQQHi95liz/Ydn7vlNu8z6UC5CdDwXzvJndGSZFQeacjibuWE0miBgtLaJhPRv7bv7g9m1Xv/w9sd3Pv9ka7nteFpULgK1s9JwVGbaM8ppl8y5+9ddAxC0ZLAT3G87S+QYAD+RAvTmmxWsA/GUaLL2TZVp8BroB4nSvGWGBmRraJy4BoONImLGpSa+yofw3KY5JS4toaW1FiEhVfeprJfNWXXGnrFzQpGLDFphlRhNDGgy2eGjHxrP3feYNG9HUJhF+aaBRKiC/A7pAdK6bIcswPco0TRaQPwFdJWnOi44pblUItY4N1KNOmzjltsdu9S05/UNWZNCkDEFpzGwaxWVG/PDe8LarX97cwixSxbikAvJ/QBf/yARk573noHcBR3Dik0wnGsjOirMVmiP3TlsfgCgO5nUvf5yLrEPd31axYQaPMeCIwfB5yRrs64nu2ryeiPYZVYsGdl57/jboeBoN6pb1RkdotZX3mLSwQCsAIrHix8/ca9Sc9AY1eNSCEDKDS8lsKURefO68PZ+9ohMtLBA6HsypZkJJDs6eA+QNNohnY9E8Bwgr7GM626UJMF8T27LpJN/i05pIGoCQ45q/wuODUVL+Idh+2Yq7X+gEYX1k9wu/3vuT/9nYEVqtQZ1vTHGIFNAiiIQZ6++9Cr6ix43istOs6IiiNGwGK7aM0krDN3/JNQA6m1pB4dDxn0kF5GCOdwvorkGONp+tHKuaxvdmKxR6GsBAvK/nQlneb3I0YjF4HLayE+RE5CQJGOXV9SREvfQXffK00C3PqujIndvCn74dzc2xVBoyM5hDittY7m6mvmU33f8hUXf2n0gICaU41cYJAVJFh0G+4NsWfua3XwgT9ehkglHzRmSg1TKJMwE25EjVzWQR9v1Ox0MAMAj6wXqral9HUhpMyiDCOA4yCGQXpSECEanIoDJHBk1mhigue4W3dtn3TvvA7U+uuP2f/4YQKZsay92caSariVnu/uyV7VZ/9z0iUELgNAqDiDgRZ1lSVu2tDFys//947Io0Tk4utqNl28hAofbYiTR/mKEeAxFzPD4vVTrVxHyTEI5TxtERZQ32WcIbWGksWP5g3Q+f+gaIqIWZkqLiMkq4VWMp1rfva2pkABDpN0oYZAnDx75Fp74dABquPX7SjFUjw3amDs8BjTy9VwsSBKV+vvJPI0uFP3gKx6NMPMmcPpGAIMmxEaViEcu3+NRPnnLbE3eEiBhtx1qj5WYvM2PPJ6/otIYHHxFFZcTp+GViYlZkxUZWoH6tp2ONNN3fk+qGIykYDaT53EgBSydMLHvV7QSwM3F47xlGRU2pMhPWlOX0kRBQSpjDfXH/8lX/UXf7E19AM1lNbbkXjWlob5cAoKKD98CMp03/JpBUkSFllFWdXXft9afqMFLOCOSjOTp6W6CTTAty4swKYmncAoATu7fUsRnHZBUCyKCdiSzTYw33W7K89sZlX37grHAzWWhqy8nZ7GhvVwAwsHXDQ9bIkE3DpbGPWIE8Pk+i72CNtk3CGYE8kCOQnaaRM71I4UxlUgSAJ/HmN/4CADyL6i4H51LQgi1mNrMdAFtOKGsOmpnYNFkWlxu+xSd9RdNyTbn9b6iVAcC3eP5+Von9JD0ZTFViYgYlojYd2pTRRh7OEciHM5yjIJMn7tp0H8H//V8cAAmvf2ku/yoCJdIorTKMkgrDKK1Me4hAiSTDQyAC67R9zqKYDTXczyJY+vqTvnrvBSBSuWllYjDTvk80R6yBo/8SXj9Ypf4uBhjSgHfxigYAaKhup2QazQ3QXO3e/hxt6YJMrJjQO5b/BdDjYEbNupuWqXisRvgTsMMdU6CAmQwPJY7sa+dEbCtI+MCKUzFdrJQkKZeJovIzyfCUG0VlhoqNgOMxhki/Y8gMyygpNzwL6t4L4ImGa5uoI5yLnQzZAZjk8e6ClFly9QjSH6xKfjXVhsgIRmsjZ9LIsQKmplwTOyC+C8BNK5tu9G4Oh+Jlr377WUZp1TwVGbRAKYLXmZkML1nRoYHD99zxgf77b3kxF4Nh6W1/K6few6d5l6xsFl7fe2WguEpFR9KDmZh0PqM6r+667/k61ohYPqan8BUN2HmsGT/PSpm5APkIgP3QjQczBdergkaeUoZC2iD+EYC1AESgYiEDQKKve6GnshbMOlEuhRJjkpJIGt3992/c28QsEQZWNqUHWEgItefaS44CeBzA46d89b7b+OQzHjCCpStUdESlCo7XzMIwZFH5udaFly/CD3gnWpjswoVpZWhrp07hNWSu1C9lAjK7WIu9NpCd9mKZgFyQydPAjjMt7ZXyCwC+42i5ztvXWrhjHYThWc1mIj1jwQCEgIqN7AY6zHBrq8ihzKtddBFUd8E2z/bXr9i+7GsPfVjWveKRLLqLSRoU27GrIm8CRBpjxlQykJ0IuMJGx0sn+Lhpqty+jZ12xx6XErlX28R4zqWNjuXMGeXV57BlgtIgjEGKpEdYPYceAoCmVa0URij7fetL5u3McbS0CM+85c+pRNwkaRhgldZQBgARH5wHAFgVznnFZh57drpI8/dgAb/HLWPjP5iR06GVi8deGf8M4DLoPofP2e9p1sLeDJh32b8vQDxWateZoLRzUQiIygU7AeDwpvb8ARMKqcTApgQnYofJMJDKUbQnLEMIkPSUTuVDSlfX4p/QvfUK1Jpe0vsxtpxEAmCRx1tKHl9R2jgIIhZeP5EvGDGPHrqT49GnoLuabk9SMMecnIbWdtkBmOVvveEiUVQyj/WOXkpHT0hDJo4eGo7s37oVADowtmxwjnoIIKlHId2c0dFyurZFblK8op4BQMXj3okCsjPST6XR2HON5jKgWw9/CbpCaX6pTqddJLHlHyOL/+sX3w4sW3m9OdhnEr3UwWYSyluzVKpE7Kmt71p+HQkJu5C3E7fw0u9tbARCAPl9J4miMpj93YpS+TNEirx+icjQrv2ff9NmO/xxTEAuPuU8n8XRarYS6U0lgq7jrBJ6VQ/nfn4VGSy1yxdR5rouL3U006WY7Ed+dd9mswzaoB7KWyNvfQxgpsDdz5/lmb8EoqQixePR0YvCVwRreGAXmMXSV1/l3d1xVzyTQ93YCNUBQA0NnMFmHACnKfTNutiPYXTb9yHyvo/WVgIY/c/+tKbkjFdTLoQClZT2AABWZt/h62i040ZYLYdlpgUygQmskBjo3glgtAN3CqA6X3oQugxWJnZiroBcun7mbhO3tAgw07Lv3ltGvkC9GuoH4jHBiTiOP2KAmQASMY7v3fp7AGr3R36SyMYKhYgUWtYbRkXtGo7H0jp6zmM1D+36i60h87aPGxpbBUAcWHz6m0VxKeFY34c0dpKZYG/F4v4cPTwCEdfc/XSRKK28UMUioPR1LwiWBatrzxMA0OEqHpMKyAb0Zke2WGM5R5gNdv3M5wAANl88sBSsfEx2wcpUB5hIGuRdsnQHclqPtaNX8+yvK0Eoz+zoQac9+YKdY7r7tjbZ0Qir5rVXFcnSqvfCNNN/Fysl/EUwh/o3bLv7WwfATDr7Ogcb918dFURGBbKUvGACEAzsSh6nTFp1S5rPODfhR0HSazE0CgAInHHRGhksM8BW6vBKVkwev0j0HTkUeWHrPgC6nVdGcIUFAAQvessFJI1itkxOR7yBhLCG+hOCVVduk8TWknZNCjQ3WyDisnd/5jZZWrncSrMZcozmMwwmw3gWHXdFdWmCLNnWra0SAHzLzriEDI+HWakMVCVxIsaiokan2DWNmi2pbGRnSjwA4CaXTZV88vI5opHHJo4zFgjWkT8Ajo2kdMaYSElvQJpm97P7vtq8P126u1vqjy4XnYDlWXjK2bK0SpgDPQkCpcoYt4Q/KBPdB7YcfejO7fUb2BO5P0yB2zeIdOyBq6UEd4RCaumHb6rwX/TWW4zyee9WIwMWZch2JkCq2AiZR/bfa9u+WZ3KhsZWdIRCkPNqL5bF5WT2d1spTQtmJQLFwuze/0zkt7fu0FvZyAhk581d0KWwFqXRyDVZTI85zT3bDoxQkaFTOZFI74wxMYhAvuARgPDAHZ1ZE3k719ZbWAeogZ5FqKxJ6xwxABIGhN+/red3Px7s+d2Ps154B4DKf28pLTl39SJPUbBZltdcJYOlddbIoGXn8aVT44q8AbIGe3clnnj2L8da92Q22qhDCHNBy++CxLiMo8MgsEw1TgwoMjwCgeJtXQ/cMdLELN215tIBWUKHc/4RwAcw2tHUDeRTMFpGthCTfLz2AIi47s4n58lA2cUqNgxKs9VPBKGiEU7s3b4eYHRW7FQ5OEeq7ntbfaJIrVaxERClNhGJIVRsBCC56rS2XbeREsQy9ZYcWyxgmZIjQxUw5JmyuOJU4Q0ASsEaGshaSZMZSvr8RvzI0A/3hT8RaVi/3uggyswlh9sEuNkKlgZeLSuqT1HxCKdrAESCSCViMHsP/gsAwuHc6DfnZP8EcHWSWeH8XgegCKPhnAU5jq4CR1/cXFt8ZkMQlkJ6UoEFoKAScZ2Rvim3gPRE79MV/gUXLGO975CG0yXiRBzCV7RC+ItW5NTAlhU4HoOKR6CiwxaYKWs5WFZK+oJGorer6/AzD98OMHW058JV68B4UbXwI+TxsopHVLoJD4bkeBTW4QO/0+N0vOJMB2RHZf8OOkglkMJOltCV7QtATha7h7S3ctGryPCAE/E0nDwzhEFWLDIYqF5+KJ9JYprmSijlQTa8EIETUWXGozmbgK5OUzJrwXlmhvRYDIjE0cMfG7z1cz1oq5NozrJ51NYm0QS17Ot/PEsESi5XI4NpVy2ALREslYkj+x/b3dWzg5l1c+JQdi7YAW2XrZVT2cJeAAuStHRBbGcMALy1Sy8Q/iIwp1nOASUCReDh/kdfWLfyoKarMnv59QuvlAAQOO2cNbK0knRaUja0kSAiI9cja/3i451VUxaVeuJdO7//4nWXhHV9t+yVh5rQBBCxd17N52VRqQFWChmC9wAClPV73LEu0djeLpNjljNdsDM77k8CstN+TED3q852njnn6HWurTcBkBUZrtWNY9I+ISbpgQiW7QfAdiXNjEBevrZeAQApcwFlyNOcGkeAE0ZJhSdxZN89Ox7ZcwOYBZpzcP7bWIabyVr2rfWXG5UL36oigxbSOpLMJKS0BrqjQ1sf/6lmQxpfMlEyAdC5oAehA2cM1yA7J1pZ0MhJ0tJCIOIlX7t3Afn856vocHpnjEio6DCso4c2AgDa27PqvzAJa9n7WvxsWedwPAoCT70S0VyvkiWVHrO76z5jx6/eibYmu2lNFt64pUWgCbzylvXF/gVLvgUiglIZ06dkoJQ5Fn2w6+sf2tOiU7k4XyATgOcB/CuFVgZGm+YUWhKMGrHa7gpW1BrF5ZVsJjh9gI0QKjrEkS1PrtfUV3tmbdaiYx6KLrpyvlFcdpaKRo71q5saHawUgy0RKBHk8cvY/m23brnp882bW1sTaG2lXPri1S+8UoJIxb3l3zEqa1eq6IiVyZQhImFFh8jqO/IDMCMUTh3fnG0QnPiCnyVRbM7/nW87fKqglR1HT4+DNTzwcmZmN2n/El1DAJGMFa264IDtyGUGwmbtRA7u2bJUV9ucAruCmZnZBDPLQImQ/mJpDR59JrJ365u2X3POR/H8/8UBIIeME9TfvsHTue7cxEnf/tNaz/yF15gDR81MHWBZsSWLSoU10PPIjo+vbtemS2r7O1sbWafH2R+gA70rcHxUXJ2tlYdQ4JIBAA3VoA4A3kUrXic8PjIT0ZTrJitmIxCkeNeux7f9+WtHk6tLpjy3nZXsW3raGvL6LY5FTFY8/lbAKSYbEUkQEXm8JAPFhhoZgjl49HFrqP+2HevqfwnA1I4dVE6a2Abx8v9+4i2+BSfdysqyiFVGVoQMCSsWscyjh1pBdFxBlrEAWUCHdd4H4P04PoiGoLukvljQyFqc8EoGajOSCUJY8PgEPP5nEA5bDe0wOnLsUShLKi70VM6T5tFeScZEtLR2d+DV+kgND4DBljnYt5dGBh8y+3oe2PmRCx+07WCgTWVtGeb4ak2ACBMl6m57oslTe9KvYJoEM4GMpQWUsoyiUhnbv/OnL97wmr/ZZQ6ssQLZuTMC8N8A3oXRKvDObt+/QUeiTPceG1NhRFKISC375P/WQpmnq3gUlL74D7EZBwTtBUYziTM9h441wgRAiYO7n2bFpooNWTRexoiZmGSCpBEhQ8aEx5dgpczoni2PmoO9G6KxyMGeb1xzLPXtWKX6XEDcxhJEVhiwlt/y9095apZ+HZYJNhMZ62OAWQmfX5iDvX3Yv+lzYCa0tmb8qlyA7NS42GAfF9mvOReyzLalzTmvjsN6MvtXXrhcVsxfqKLD6etMSMOwBnoSQ50PtwNA54H6bMBgxyTeecOaz03lbTUxy3A4DDQ3Wx2h7F1I0cKioRGiYzWZC264fV5x/aW3eErK36HiUQXLpIwgBoOFUERkJA7u/vDO0Hv2Na3yyXAoZI0XyI5WtgD8AMCr7L+dqLiLASwHsA2zswVD3hLt3nlS0bz5mQeUCJDeaKyicpt2lnL2LxjMlMNmc+6MIUCbATrcDnJWhs6KnQqbNjFaWzlMlNtKy0wNre2yI0RmRwjqpG8+cpm3dskPPJU1p1qDvRYYEtn2WphNo7TSiO/f/uOd/7n6Vw0t641wc/bJkyuQHVbiHuiA+1UurewF8AroRMmCnQzAW7X48tHgr9SBwmR4yRzo2dLbetUQQu9BXl2SiHgiBzqUyUkPhXKYCS2ifuGVspMo0QGYJ3/z9yuM6pM+JYOlHxBevzAHejU7kTXMQ1myqNRIHNn7GA/tvxbM1AFYyOESRM5aQH82jtECIXA5fm9BThEps1zsyj2iqHRFpqFgQJHXDxWN/AVEqolZzrA7HQ28ZyaEQqpz3bmJuq88WH3qXZtu9i57eadn3qJrwCxUdFhlotjcKJb+oLSGjnYPbfrr+7d/7PUxtCInbjofILu18q9s7etOYjwbuhuUNQvBnNuy2tIiQKSKr1g7T0VHFrCVMSqNQQSjtLILAHbe0SlmBnDXGw3rWe/whkLK6XC69PN3n7zi7s1flnWrnvFWL/l/RLLYGuyzNFeew4YNK0XegLDi0f5E1/43H7h57damtjaZT4OdfLgbJ055BDo9/i4XU7ESQD10XutsaT7uTNKcKvg71Xvmv/HaVxilVUtVPKoIKTMdWEhpJHoPxiNbn+wEgM4/78ztgTETmsMil8zkMckqUEO1vs/5R8DhJrBdOoARCnGHs+nR0GIsOn/ZyYGXnftWIvFK4QtcbpRW+VQ8CnOg1yIikSmT5CXmhL9IWvFIX+LAjit33rD60Vzt4rEC2c1g/BLAx6CDhuI2eN+K4xK0Z43E8/mwSAwtFP4g1GBcIU2MBaRBRPG+vbe1Pq3ZjubcgKyX2UlVEh2pXrz8Ol91Weni8te941KWYikJ8UYZKF0hfAEfGR5YIwMwR/otYs4ZwC6bWJpDfV3xg7vesuvja56w6b28GbCxsOkEXWT689A7fs7Dugw6bjmK2bHL56Qc7UnS0GmYt2Ne3KvYMgHi1Bn6BAYJYmUdxpHNQ7mc2xnPBWtvXirmLVooIE2W1sSacAnAc9Jptf6qhdXxoZ4AjwxXkWUtkuVV51GgZAHHo0VGSWUJ+QLgyBCUGYeKDlusFEiQIFD22OVRBDOTsIzSKiPRvX9zfNe2d++68cpnsH690bF69Zho3LEA2dHKD0EnqF4BXT7gFACN9usznVd2djQPAXjS9VomR08BgKey5iIolXYjhBVYenyIdB/4o20uiKyVf9pYoFlYJZe85UfCX7SaYyMJBk2sg8gMESjyiuJy+IvLbZdUgc042LIAv6GBGxlkOzmUAJL5xiyxUpYwvFJ4fUb8aNeve9vv/GDPj78xiJb1BsYI4rEC2a0lPmGDN2CD9ypbS88GLpmhk2+7c1hhCERcUf+aMhWPVZC/KL1FLaBgeKS3suYFAGhoh+jIPF6Ed0gLYAEhamWwxFDMMvOmwlixbClzoMc61i1Jx+2NNoIkknnE3CefXDGBZXGZVNHhgejuzZ978bpLbtVKoE0itHpcik+MU2Ntha6N5gSEXwagdhZQcQ5D85ucxslux1Vx9Y3nCn9woZ3aRKkcPSJhmH1HlHm0ZycAdBwJZ4vfJbDCgs/+7wqwWqKiw8ysmC1zwg8wCwI8x7JFBEkQCQ3nMbY8Y1bMbApfUMhAsTT7DrcPbXnqVS9ed8mtLcwCzIRw87jtfjHOhy0AfAN6V48AVAFoxijvPFM1sYDOIv9tLv/gePpG2byTZWmVZLYspCleJjx+4nhkX1/r+3SyaXNmR88p9FKy6uLTPBW15XYfvVFwTeQxgbpHN35kJfxBYZRWGOZw35bYzhfeu/Wq01bv+/yVz6GNZYhI5coTTyaQ3c1z1mI05PNDtskyU2OUlcsHeB45BEN12IVIzL6elbAS6ceVofP/Pf7+3t7tA/YSnvFBzrfrmyUO710MmubDyawYMAGCESyTwhcU5mD/pujebddv/eQ7z9nxsVf9FCSAFhY5BR1NEZCdh27YtNs3beCeBuCNLt55JnLHJoCbAeTWKFxoZ82orH0tm/H0BQUJDCGQ6Dnwd5vqyDr+YXu30CibdxmbCdB0W+mYFds9+YS/SBhFZQbAKn708B/ih3ZftfU77zh7x9r6H6CrcwRtLMEK+Wx0TIWz52YxJHSOz2uhd/mut5flmeb0OT1T7oSO9Mtlc4fAYKxsKCaS89MVctfPnJikB8R4VBMdOVRisxkNUVT6smwF/iZ9jjMU07Ey3wQAIlAsIAQ4HoU50P0cFB6K7d3+891fuOLpY+aRptWsidbCEw1kp/pkBMB7oDn1BgCvgW4dMFN2+hwQHwLQgtFs8czS1CYQbrYWv+vj54BQATPBSEO9kSBSsWHI4pIDOQ4tAcSVb1i3iOORMvYFsq8PnG/6k66KdGwtIuJka0d77iSEPyhIGmAwYJlgpWD292xkZf01cXjPT2Mdv9nY9cAdI/Z50PRrJcPNZHWsXj3pVKwxwSDYBF1i6z4An7GBPFNMCqeP3TuhM2JymoBO+lHR8jPONsrne8zB3gRRioKCzIq8fmkePbz74H3/86xtNmR29FraZUcIZtWbP3yBLKmsZjOWIW3exqHHm6chTYAgFzXs6FpyTUABa3gAid6DW0SgaD/HY4ci+7c/7C+v3Lzti9c9h67OY01G62/f4Ok8cL+FUEiFJ1EDTxaQHRPDgK5OdCOAL0LHKv99mmtldk3Ej9r2vlPTLqvMP6LVl9Xfs9jIUFBQ97ozIPxFhwbvvbUnp40Qu6InCItEoATmQCx9SSkiQFlsDvUPUc5JqQQwWwxEAY5ByCgJGREeT4ItMxrvOfQUIoMbPfNq9oNVz7avfmgLtv/zJb3KG9az0dEOhVZwJ1HiRDxEY4LP5/Td+BJ0INFt0LHKzhSfbtvW7j52NwK4NR8QA6Bws7DQ1CQpWLSG49G0NSyOzfbIwAu2o5dVczpsiBUbOStjewVmJXwBYY4MbB56uuPtbAgSnN2hYssiMzpkctfe4cT2DdH+jX+PQIcYpJUWZtHe2i46Vh3Rz7KpSR0rVhg6cQ/SmIRzOlvY74XumvleAHdPM63MrhXEAvBpAN9Gvlvruuom6lZeXCSDJXVsJoC0OXoEMCNxcO9Dua/6pMAgzy9rGtiMIV2HGCYwhAHzyP4/dH173QtjHxYCdK870hnLusigdkrDQFOTUzt52jnxxiSBxAkseput5X4PoHcaaGXlogwN6DiK6wE8OqaJ5lTdjARPD1pWQAqZ1RnzLajbkzuqwKWXNVXw+1m3JEjb7YgYUoKE8S+drdEqOw+05ncvoVZ29YE+7hmFMf3FmETACOhi4V+yAf3DEwBkheOLyjjHMIDvAviyvZSOabWo77pSdiKkAqsuajBKKj3WyIBJSJENwczk9Umz7/D+3mf+oDsSbcoyDm1tAs3NVmXj1eeSMMpgmZwB8oIjgywDwQMIhdTytlbqXBfKU2uGMJNFTDKIpG1ePA5gCaZmt49dABb2NTgVk7YB+Ap0zuEXxgNiAFh+u11Q0OLF5PGkLfzDBCW8fhCJLd3fvaELzCJr1U2noufSFWcZ5dVSMZupe5CwEt6AMPuP7jz0u+88BwDhTa1zrlCOMcnnd+zlZ6GrFE1FlrXX/h4vdCzxThvAP4duhOl43U688VjtdgoLYaGlxVBW4hyOR9M7Y9A8LQtxEDgW8ZbRFr9ibb3VuQ6wBrsXeaoytFcgsJAGZCB4sP++u/pyYkMKQB4XM3B0krWxA4w7ATxs2+hdGG0Q777n8QD4eEev8tIKWVp5ropFQWkixAgQKhHj+O4XHgZyiHgDKESkGlrWGweCJat11c00FT3ta7FG+rcAQFMYFMbcE2OKvoeTfk7mdxyyD/ezli5zY2J2mWxHL7F762JZs8QHVkhbcJsVkRAkS6p0+dhs7RXsSbJjYHtpsX/5KZp6S6cECGDFiYN7/giHXZiDMhsLdJPLLnY3I1cTOZEaGnV4pbHi5atFoJgAttKAUtewGOzrjWPoYG6TxFa0Qp3KZsLHijO0IGECgzy1dbsxh8WYhfc06QmaWhr1AJZWrRS+AMzoCKf2xaCkPyjNviMb9nY/eriB2ZgfBqMtfS2Lp4phnN3G5jORLatl2TyZgQ1R5PWJxNFDXfHn/6mB3NSkCkAuSM5av0P30ZPW0OBJsnQeiDKEbkoD0hd8EaGQ2RHKieaytgNYcdfzi8jjSWuSMUhJb0AQxHO7v3n1wVyaTRaAXJBRadG97k7973/UUnHpKzk6DDBEyog3glCRYSi2zj/l1se+TiQCnAvYdG+YN6nhQRCzkTGo3uPtBoD29rlbe68A5HFIrKe7pqjm5CCbCaTPaSPB8ShkSeXZnurFZ+dTZF5FhsCJWNpzE7FQ8SgnDmz5i2ZD5m6h9QKQxyKrdOV0GQhcaBcTUhkdZyJwPKLMWCQvbUm6z12GInJEAJMy7ZIFm+YukAttxcbCWFQ36YaQtcsvFj5/2j56yZo5n153dr+7TMWwGYZBVmRo0Ov1HnbojoJGLki+jh5UfLiGuQppa9JPJjVDUIY/KK3ew49t+8RrunLpQVLQyAVJdvR44ed/uQSG70yORUB8AsaRbTakuHQ/AFV/R6cBFEyLguRpHweXnbrIUz6vis24GnPxkvEsC4KIYxEkjh7ZBACdBwbndEetApDHKInuQy+DUnzilnOSVnSYI9s3PqL/blcFIBckd0dvUzUBgG/R8tdBSNaO3lQfsAAoMOK+patyazZZcPYK4pbG1kbVEYKAYbxM+IOCzbggMbV1aNiyIIvLEN39wsYX73moBxNb7aoA5Lkgegu4SUZe2HCdeXh3sZWIMtTU2sgEoYQ/IBPdu3ajI2TOdcaiIAWZNVJoJzZWaWHhMBgnRpqATa2cSzPzghSkIAUpSEGmTv4/ie9Lfo7XluoAAAAASUVORK5CYII=" alt="FP Elite logo">
+      <b>FP Elite</b>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#inside">What's inside</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn--primary btn--sm" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start free trial</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container">
+      <span class="eyebrow">FP Elite, Australia's sales community</span>
+      <h1>Get better at sales in a room of <span>people doing the same.</span></h1>
+      <p class="lead">Live coaching calls every week, honest feedback on your real calls, an in-depth bonus course, and a private community of Australian closers who want you to win. Try everything free for 7 days.</p>
+      <div class="hero-cta">
+        <a class="btn btn--primary" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start your 7-day free trial</a>
+        <span class="btn-note">Full access for 7 days, then $97/month. Cancel anytime.</span>
+      </div>
+
+      <!-- Social proof avatars. For real photos, replace the initials with  <img src="member1.jpg" alt="">  -->
+      <div class="avatars">
+        <div class="avatar-stack" aria-hidden="true">
+          <span class="av" style="background:#28aae2">JM</span>
+          <span class="av" style="background:#0e6fb0">AK</span>
+          <span class="av" style="background:#0a3a57">RW</span>
+          <span class="av" style="background:#5bb8e8">LR</span>
+          <span class="av" style="background:#7c8aa0">MC</span>
+        </div>
+        <span class="proof-text">Salespeople from right across Australia.</span>
+      </div>
+
+      <div class="trust">
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg> Australia-based</span>
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10l5-3v10l-5-3"/><rect x="3" y="6" width="12" height="12" rx="2"/></svg> Live calls / week</span>
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg> Active private community</span>
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> We recruit from within</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section section--mist">
+    <div class="container">
+      <span class="eyebrow">Sound familiar?</span>
+      <h2>Most salespeople plateau alone.</h2>
+      <p class="lead prose">Getting better at sales on your own is slow. You hit the same walls, with no one to break them down with. FP Elite is built for you if any of this sounds familiar.</p>
+
+      <div class="problems">
+        <div class="problem">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <p>You're struggling to find like-minded people who actually get sales.</p>
+        </div>
+        <div class="problem">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4M12 16h.01"/></svg></div>
+          <p>You still get hit with objections and aren't sure how to handle them.</p>
+        </div>
+        <div class="problem">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.9" y1="4.9" x2="9.2" y2="9.2"/><line x1="14.8" y1="14.8" x2="19.1" y2="19.1"/><line x1="14.8" y1="9.2" x2="19.1" y2="4.9"/><line x1="9.2" y1="14.8" x2="4.9" y2="19.1"/></svg></div>
+          <p>You want more support and honest feedback on your real calls.</p>
+        </div>
+        <div class="problem">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V18h6v-1.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg></div>
+          <p>You want to soak up as much sales knowledge as you possibly can.</p>
+        </div>
+        <div class="problem">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></div>
+          <p>You're on the lookout for a new sales offer or role.</p>
+        </div>
+        <div class="problem">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M2 20h20"/></svg></div>
+          <p>You want to move into remote sales and earn from anywhere.</p>
+        </div>
+      </div>
+
+      <div class="cta-row">
+        <a class="btn btn--primary" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start your 7-day free trial</a>
+        <span class="btn-note">Full access for 7 days, then $97/month. Cancel anytime.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDERS -->
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">Who we are</span>
+      <h2>Meet Finn and Pietro.</h2>
+      <p class="lead prose">We're not gurus who learned sales from a book. We've spent years on the phones and face to face, hitting records and training the people who do the same. Here's where we come from.</p>
+
+      <div class="founders">
+        <!-- Real photo: replace the letter inside this .portrait with  <img src="finn.jpg" alt="Finn, co-founder of FP Elite">  -->
+        <div class="founder">
+          <div class="portrait">F</div>
+          <div class="fname">Finn</div>
+          <div class="frole">Co-founder, in-person and phone sales</div>
+          <p>Finn started in car sales, face to face on the floor. It didn't take long before he was the best salesperson in the company, selling the most cars, winning awards month after month and breaking company records. He moved into management, training new reps and bringing them to the top alongside him. Along the way he worked out his own techniques for closing more deals in person, then took everything he knew to the phones, becoming an expert in over-the-phone selling and customer psychology, and writing the scripts that helped his reps sell more.</p>
+        </div>
+        <!-- Real photo: replace the letter inside this .portrait with  <img src="pietro.jpg" alt="Pietro, co-founder of FP Elite">  -->
+        <div class="founder">
+          <div class="portrait">P</div>
+          <div class="fname">Pietro</div>
+          <div class="frole">Co-founder, B2B and phone sales</div>
+          <p>Pietro came up through B2B, selling pumps, and quickly became one of the top account managers in his company. He was good enough at it to host sales training masterclasses in B2B sales for others. When he teamed up with Finn he mastered selling over the phone too, setting new records for the companies they worked with and helping the agency's reps close more, deal after deal.</p>
+        </div>
+      </div>
+
+      <div class="together">
+        <p>Together we started the remote sales agency, and it grew fast, hitting $50k a month. Everything inside FP Elite is the same training, the same scripts and the same thinking that got us there. We're putting it all in one place, for the community we wish we'd had when we were starting out.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT IT IS + WHAT'S INSIDE -->
+  <section class="section section--mist" id="inside">
+    <div class="container">
+      <span class="eyebrow">What it is</span>
+      <h2>A community built to make you a better closer.</h2>
+      <p class="lead prose">FP Elite is a private community of Australian salespeople who want to get sharper. The course is there as a bonus if you want to go deep. The real value is the room: the live calls, the feedback, and the people you'll be learning alongside.</p>
+
+      <div class="features">
+        <article class="feat">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+          <div><h3>Live calls every week</h3>
+          <p>Jump on the live calls every week. A different focus each call, covering pitching, objection handling, follow-up and mindset. Bring your questions.</p></div>
+        </article>
+        <article class="feat">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 9l5 3-5 3z"/></svg></div>
+          <div><h3>Every call recorded</h3>
+          <p>Can't make it live? Every call is recorded and added to the library, so you never miss a thing.</p></div>
+        </article>
+        <article class="feat">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+          <div><h3>Bring your toughest calls</h3>
+          <p>Stuck on an objection, or a call that didn't land? Post it and we'll break it down, often live on the next call.</p></div>
+        </article>
+        <article class="feat">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div><h3>A room of closers</h3>
+          <p>Ask questions, swap what's working, and connect with salespeople who actually get it. Always-on chat and Q&amp;A.</p></div>
+        </article>
+        <article class="feat">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7a6 6 0 0 1-12 0Z"/><path d="M6 5H3a3 3 0 0 0 3 3M18 5h3a3 3 0 0 1-3 3M9 21h6M12 15v6"/></svg></div>
+          <div><h3>Wins channel</h3>
+          <p>Closed a big one? Post it. Momentum is contagious, and seeing what others are landing keeps the bar high.</p></div>
+        </article>
+        <article class="feat">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg></div>
+          <div><h3>Bonus in-depth course</h3>
+          <p>Everything we've learned across years in sales: the systems that work and the mistakes to skip. Included, and always being added to.</p></div>
+        </article>
+        <article class="feat">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></div>
+          <div><h3>Other sales offers</h3>
+          <p>A dedicated channel where real sales roles and offers get shared, handy if going remote or finding new work is the goal.</p></div>
+        </article>
+        <article class="feat">
+          <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg></div>
+          <div><h3>Resume section</h3>
+          <p>Add your details to the resume channel. We read every one, because we're always looking for new salespeople.</p></div>
+        </article>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn--primary" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start your 7-day free trial</a>
+        <span class="btn-note">Full access for 7 days, then $97/month. Cancel anytime.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORYTELLING -->
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">Picture this</span>
+      <h2>Six months from now.</h2>
+      <div class="skim">
+        <p>You open your phone to a group chat that actually gets it.</p>
+        <p>Salespeople you talk to every day. Real mates, now.</p>
+        <p>Stuck on a deal? You ask the room, and someone's already cracked it.</p>
+        <p>You share a win, and people genuinely celebrate it with you.</p>
+        <p>Your circle looks completely different. Sharper, and on your side.</p>
+        <p class="kick">You got better, because you stopped doing it alone.</p>
+        <p>The people and the perspectives alone are worth more than $97 a month.</p>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn--primary" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start your 7-day free trial</a>
+        <span class="btn-note">Full access for 7 days, then $97/month. Cancel anytime.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECRUITMENT -->
+  <section class="section section--mist">
+    <div class="container">
+      <div class="feature reveal">
+        <span class="eyebrow">The part no one else offers</span>
+        <h2>We hire our salespeople from inside this community.</h2>
+        <p>Every salesperson on the FP team came from here. We don't recruit from job boards. We recruit from the people we already know, work with, and watch get better every week. Stay active, get sharp, and you put yourself right in front of us.</p>
+        <p class="disclaim">It's not a guaranteed job, but it's a door that doesn't exist anywhere else. And if you'd rather go your own way, the other-offers channel keeps real sales roles in front of you too.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+    <div class="container center">
+      <span class="eyebrow">Pricing</span>
+      <h2>Try it all free for 7 days.</h2>
+      <p class="lead">Get full access to everything, the live calls, the course, the recordings and the whole community, free for seven days. No charge today, and you can cancel before day seven and pay nothing. After that, most sales communities cost thousands of dollars. We don't, so pick the plan that suits you below.</p>
+      <p class="trial-line">Every plan starts with your 7-day free trial. You won't be charged until it ends.</p>
+
+      <div class="plans">
+        <!-- PLAN LINK: monthly -->
+        <div class="plan">
+          <div class="pname">Monthly</div>
+          <div class="amt"><sup>$</sup>97<span class="per">/mo</span></div>
+          <div class="cycle">Billed monthly</div>
+          <span class="save placeholder">.</span>
+          <a class="btn btn--primary" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start free trial</a>
+        </div>
+        <!-- PLAN LINK: quarterly -->
+        <div class="plan">
+          <div class="pname">Quarterly</div>
+          <div class="amt"><sup>$</sup>81<span class="per">/mo</span></div>
+          <div class="cycle">Billed $243 every 3 months</div>
+          <span class="save">Save $48</span>
+          <a class="btn btn--primary" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start free trial</a>
+        </div>
+        <!-- PLAN LINK: annual -->
+        <div class="plan plan--best">
+          <span class="badge">Best value</span>
+          <div class="pname">Annual</div>
+          <div class="amt"><sup>$</sup>71<span class="per">/mo</span></div>
+          <div class="cycle">Billed $847 per year</div>
+          <span class="save">Save $317</span>
+          <a class="btn btn--primary" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start free trial</a>
+        </div>
+      </div>
+
+      <div class="included">
+        <h3>Every plan includes</h3>
+        <ul class="inc-list">
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Live coaching calls every week</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Full library of every call recording</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Feedback on your real calls and objections</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> The in-depth bonus course, always growing</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Private community, wins and other-offers channels</li>
+          <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> On the radar for FP recruitment</li>
+        </ul>
+      </div>
+      <p class="btn-note">Cancel anytime. No lock-in contract.</p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS (TESTIMONIALS: replace these placeholders with real ones) -->
+  <section class="section section--mist" id="testimonials">
+    <div class="container">
+      <span class="eyebrow">From the community</span>
+      <h2>What members are saying.</h2>
+      <div class="quotes">
+        <figure class="quote">
+          <div class="stars">★★★★★</div>
+          <p>"Stuck at the same numbers for a year. Two months in here and my close rate has jumped right up."</p>
+          <figcaption class="who"><span class="av">JM</span><span><b>Jake M.</b><small>Car sales, Melbourne</small></span></figcaption>
+        </figure>
+        <figure class="quote">
+          <div class="stars">★★★★★</div>
+          <p>"The live calls alone are worth it. Posting a call I bombed and getting it broken down is something I never had before."</p>
+          <figcaption class="who"><span class="av">SP</span><span><b>Sarah P.</b><small>Remote closer, Brisbane</small></span></figcaption>
+        </figure>
+        <figure class="quote">
+          <div class="stars">★★★★★</div>
+          <p>"Joined to get better at sales and ended up put onto an offer through the community. Easily the best money I spend."</p>
+          <figcaption class="who"><span class="av">DT</span><span><b>Daniel T.</b><small>Solar sales, Perth</small></span></figcaption>
+        </figure>
+        <figure class="quote">
+          <div class="stars">★★★★★</div>
+          <p>"It's the people. Being in a chat with closers who want you to win changes how you show up every single day."</p>
+          <figcaption class="who"><span class="av">AK</span><span><b>Aisha K.</b><small>SaaS sales, Sydney</small></span></figcaption>
+        </figure>
+        <figure class="quote">
+          <div class="stars">★★★★★</div>
+          <p>"Came from retail with zero phone experience. The course and weekly calls got me confident enough to go remote."</p>
+          <figcaption class="who"><span class="av">LR</span><span><b>Liam R.</b><small>Retail to remote, Adelaide</small></span></figcaption>
+        </figure>
+        <figure class="quote">
+          <div class="stars">★★★★★</div>
+          <p>"No fluff and no gurus. Just people in the trenches sharing what's actually working in the Aussie market right now."</p>
+          <figcaption class="who"><span class="av">MN</span><span><b>Mia N.</b><small>Fitness sales, Gold Coast</small></span></figcaption>
+        </figure>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn--primary" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start your 7-day free trial</a>
+        <span class="btn-note">Full access for 7 days, then $97/month. Cancel anytime.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="center"><span class="eyebrow">Questions</span><h2>Good questions, answered.</h2></div>
+      <div class="faq">
+        <details open><summary>How does the free trial work?</summary><div class="ans">You get full access to absolutely everything for 7 days: the weekly live calls, all the recordings, the full course and the entire community. There's no charge to start. At the end of the seven days you simply decide whether it's worth keeping. If it's not for you, cancel before the trial ends and you pay nothing.</div></details>
+        <details><summary>Is it worth $97 a month?</summary><div class="ans">We're not doing this for the money. We're building the community we wish we'd had in sales: a genuinely strong community in Australia that doesn't cost thousands of dollars like most sales communities and courses. We're the most affordable sales community on the market, and we don't run sales calls to pressure anyone into joining. We just open the doors to people who want to connect with similar minds, at a very low price. It's a value-packed community that includes an in-depth bonus course.</div></details>
+        <details><summary>Do I have to do the course?</summary><div class="ans">You definitely don't have to, but we'd recommend it because there's so much value in there. You're guaranteed to walk away with more knowledge than you started with, and it's simply part of your membership. You also never pay extra for the live calls. We post them in the chat ahead of time so you always know when they're on, and if you miss one, we post all the recordings too.</div></details>
+        <details><summary>Do I need sales experience to join?</summary><div class="ans">No. Anyone can join. This community is made for absolutely anyone and can help people wherever they're starting from. If you don't have sales experience yet, run through the course and you'll know exactly what you're doing.</div></details>
+        <details><summary>Is this only for people in Australia?</summary><div class="ans">Yes, 100%. This community is for Australian salespeople only.</div></details>
+        <details><summary>Will I get hired by FP?</summary><div class="ans">It's not guaranteed, but we're always looking for new salespeople and are actively looking in the community for people to take on board. There's a big chance you'd be working closely with Finn and Pietro and talking with us a lot. And if it's not with FP directly, we also have a chat for other sales offers.</div></details>
+        <details><summary>Can I cancel anytime?</summary><div class="ans">Yes, you can cancel anytime.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section section--mist final">
+    <div class="container">
+      <span class="eyebrow">Get in the room</span>
+      <h2>Try it all, free for 7 days.</h2>
+      <p class="lead center">Live calls a week, a bonus sales course, honest feedback, and a community of Australian closers. Get full access free for seven days, then just $97 a month.</p>
+      <a class="btn btn--primary" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start your 7-day free trial</a>
+      <p class="btn-note">Full access for 7 days, then $97/month. Cancel anytime.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-top">
+      <div>
+        <span class="brand"><img src="data:image/png;base64,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" alt="FP Elite logo"><b>FP Elite</b></span>
+        <p class="foot-blurb">Australia's community for salespeople who want to get better. Live coaching, a bonus course, and a private network of closers.</p>
+        <p class="foot-contact">Questions? Email us at <a href="mailto:admin@fpsales.com.au">admin@fpsales.com.au</a></p>
+      </div>
+      <a class="btn btn--primary btn--sm" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start free trial</a>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span id="year">2026</span> FP Elite. All rights reserved.</span>
+      <span><a href="privacy.html" style="color:var(--ink-soft)">Privacy Policy</a> &nbsp;&middot;&nbsp; Built in Australia.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <span class="mb-price">7 days free<small> then $97/mo</small></span>
+  <a class="btn btn--primary btn--sm" href="https://fp-elite.circle.so/checkout/fp-pro-subscription">Start free trial</a>
+</div>
+
+<script>
+  document.body.classList.add('js');
+  document.getElementById('year').textContent = new Date().getFullYear();
+  var header = document.getElementById('header');
+  var onScroll = function(){ header.classList.toggle('scrolled', window.scrollY > 8); };
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var reveals = document.querySelectorAll('.reveal');
+  if(!reduce && 'IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+    }, {threshold:.18});
+    reveals.forEach(function(el){ io.observe(el); });
+  } else { reveals.forEach(function(el){ el.classList.add('in'); }); }
+
+  // Read more (mobile only) for long text blocks
+  (function(){
+    var MQ = window.matchMedia('(max-width:820px)');
+    function setup(){
+      var mobile = MQ.matches;
+      document.querySelectorAll('[data-readmore]').forEach(function(el){
+        var nx = el.nextElementSibling;
+        if(nx && nx.classList.contains('readmore-btn')) nx.remove();
+        el.classList.remove('clamped','open');
+        if(!mobile) return;
+        el.classList.add('clamped');
+        if(el.scrollHeight - el.clientHeight < 40){ el.classList.remove('clamped'); return; }
+        var b=document.createElement('button');
+        b.type='button'; b.className='readmore-btn'; b.textContent='Read more';
+        b.addEventListener('click',function(){
+          var open=el.classList.toggle('open');
+          b.textContent = open ? 'Read less' : 'Read more';
+        });
+        el.insertAdjacentElement('afterend', b);
+      });
+    }
+    setup();
+    var t; window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(setup,150);});
+  })();
+
+  // Carousel arrows on mobile so it's clear the boxes scroll
+  (function(){
+    document.querySelectorAll('.problems, .features, .quotes').forEach(function(car){
+      if(car.parentNode && car.parentNode.classList.contains('carousel-wrap')) return;
+      var wrap=document.createElement('div'); wrap.className='carousel-wrap';
+      car.parentNode.insertBefore(wrap, car); wrap.appendChild(car);
+      function arrow(dir,label){
+        var b=document.createElement('button'); b.type='button';
+        b.className='car-arrow car-'+(dir<0?'prev':'next'); b.setAttribute('aria-label',label);
+        b.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="'+(dir<0?'M15 18l-6-6 6-6':'M9 18l6-6-6-6')+'"/></svg>';
+        b.addEventListener('click',function(){ car.scrollBy({left: dir*Math.max(car.clientWidth*0.82,200), behavior:'smooth'}); });
+        return b;
+      }
+      var prev=arrow(-1,'Scroll left'), next=arrow(1,'Scroll right');
+      wrap.appendChild(prev); wrap.appendChild(next);
+      function update(){
+        var max=car.scrollWidth - car.clientWidth - 2;
+        prev.classList.toggle('hide', car.scrollLeft<=2);
+        next.classList.toggle('hide', car.scrollLeft>=max || max<=0);
+      }
+      car.addEventListener('scroll', update, {passive:true});
+      window.addEventListener('resize', update);
+      update();
+    });
+  })();
+</script>
+</body>
+</html>
